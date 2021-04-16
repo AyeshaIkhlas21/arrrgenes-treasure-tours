@@ -63,6 +63,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #6b3e2e;
 }
 
 .banner img {
@@ -147,4 +148,20 @@ body {
 
 .footer * {
   margin: 0;
+}
+
+.nav a:hover {
+  background-color: #c3c4c7;
+}
+
+.nav a:focus {
+  outline: .15rem solid #fff;
+}
+
+main a:focus {
+  outline: .15rem solid #fff;
+}
+
+section a:focus {
+  outline: .15rem solid #bea59b;
 }
